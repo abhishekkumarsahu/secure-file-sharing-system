@@ -12,6 +12,7 @@ def verify_token(token, max_age=3600):  # 1 hour expiry
         return email
     except Exception:
         return None
+    
 def generate_file_token(file_id):
     s = URLSafeTimedSerializer(settings.SECRET_KEY)
     return s.dumps(file_id, salt="file-download")
