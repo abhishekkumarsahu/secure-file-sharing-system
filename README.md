@@ -48,8 +48,8 @@ It allows two types of users:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/abhishekkumarsahu/secure-file-sharing-system.git
+   cd secure-file-sharing-system
 2. Create and activate a virtual environment
     ```bash
     python -m venv venv
@@ -165,8 +165,8 @@ It allows two types of users:
 ## 📦 Extras
 
 - 🛠 `requirements.txt` included.
-- 📤 Postman Collection (`postman_collection.json`) provided.
-- 📄 `Procfile` included for easy Heroku/Render deployment.
+- 📤 Postman Collection (`Secure File Sharing API.postman_collection.json`) provided.
+- 📄 `Procfile` included for easy Heroku/Render deployment if needed.
 - 🚀 Ready for Docker deployment if needed.
 - 🔒 Secure JWT-based authentication and email verification flow implemented.
 
